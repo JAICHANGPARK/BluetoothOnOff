@@ -7,22 +7,18 @@
     <list default="true" id="5d845d0c-2ba2-4288-a1ac-d374770c9066" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/fleximex/bluetoothonoff/BluetoothOnOffPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/fleximex/bluetoothonoff/BluetoothOnOffPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>BluetoothOnOff</find>
-      <find>turnOnBluetooth</find>
-      <find>bluetoothonoff</find>
-      <find>platform</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,29 +131,33 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1590" height="288" key="GridCell.Tab.0.bottom" timestamp="1603409909127">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state width="1815" height="321" key="GridCell.Tab.0.bottom" timestamp="1603414877426">
+      <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state width="1590" height="288" key="GridCell.Tab.0.bottom/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603409548129" />
+    <state width="1815" height="321" key="GridCell.Tab.0.bottom/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603414877426" />
     <state width="1590" height="288" key="GridCell.Tab.0.bottom/1982.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1603409909127" />
-    <state width="1590" height="288" key="GridCell.Tab.0.center" timestamp="1603409909127">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state width="1815" height="321" key="GridCell.Tab.0.center" timestamp="1603414877426">
+      <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state width="1590" height="288" key="GridCell.Tab.0.center/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603409548129" />
+    <state width="1815" height="321" key="GridCell.Tab.0.center/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603414877426" />
     <state width="1590" height="288" key="GridCell.Tab.0.center/1982.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1603409909127" />
-    <state width="1590" height="288" key="GridCell.Tab.0.left" timestamp="1603409909127">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state width="1815" height="321" key="GridCell.Tab.0.left" timestamp="1603414877426">
+      <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state width="1590" height="288" key="GridCell.Tab.0.left/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603409548128" />
+    <state width="1815" height="321" key="GridCell.Tab.0.left/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603414877426" />
     <state width="1590" height="288" key="GridCell.Tab.0.left/1982.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1603409909127" />
-    <state width="1590" height="288" key="GridCell.Tab.0.right" timestamp="1603409909127">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state width="1815" height="321" key="GridCell.Tab.0.right" timestamp="1603414877426">
+      <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state width="1590" height="288" key="GridCell.Tab.0.right/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603409548129" />
+    <state width="1815" height="321" key="GridCell.Tab.0.right/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603414877426" />
     <state width="1590" height="288" key="GridCell.Tab.0.right/1982.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1603409909127" />
     <state x="2350" y="290" key="SettingsEditor" timestamp="1603409186100">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
     <state x="2350" y="290" key="SettingsEditor/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603409186100" />
+    <state x="2620" y="256" width="1037" height="568" key="find.popup" timestamp="1603413266228">
+      <screen x="1982" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2620" y="256" width="1037" height="568" key="find.popup/1982.0.1858.1080/62.0.1858.1080@1982.0.1858.1080" timestamp="1603413266228" />
   </component>
 </project>

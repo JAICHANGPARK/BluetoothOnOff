@@ -2,6 +2,7 @@ package com.fleximex.bluetoothonoff
 
 import android.bluetooth.BluetoothAdapter
 import android.os.Build
+import androidx.annotation.NonNull
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
@@ -9,11 +10,11 @@ import io.flutter.embedding.engine.plugins.FlutterPlugin
 
 /** BluetoothOnOffPlugin  */
 class BluetoothOnOffPlugin : FlutterPlugin, MethodCallHandler {
-    private lateinit var channel : MethodChannel
+    private lateinit var channel: MethodChannel
 
-    override fun onAttachedToEngine(binding: FlutterPlugin.FlutterPluginBinding) {
-        val channel = MethodChannel(binding.binaryMessenger, "BluetoothOnOff")
-        channel.setMethodCallHandler(BluetoothOnOffPlugin())
+    override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "BluetoothOnOff")
+        channel.setMethodCallHandler(this)
     }
 
     override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
@@ -23,6 +24,7 @@ class BluetoothOnOffPlugin : FlutterPlugin, MethodCallHandler {
     override fun onMethodCall(call: MethodCall, result: MethodChannel.Result) {
         var intResult = -1
         var callType = "on"
+
         if (call.method == "turnOnBluetooth") {
             callType = "on"
             intResult = turnOnBluetooth()
@@ -71,8 +73,6 @@ class BluetoothOnOffPlugin : FlutterPlugin, MethodCallHandler {
         }
         return 0
     }
-
-
 
 
 }
