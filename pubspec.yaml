@@ -4,7 +4,7 @@ version: 0.1.1
 author:
   - Fleximex <mjw_2@hotmail.com>
   - Dreamwalker <aristojeff@gmail.com>
-homepage: https://github.com/Fleximex/BluetoothOnOff
+homepage: https://github.com/JAICHANGPARK/BluetoothOnOff
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
