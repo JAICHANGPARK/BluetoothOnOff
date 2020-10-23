@@ -1,6 +1,3 @@
-// Written by Fleximex
-// 2019
-
 import 'dart:async';
 import 'package:flutter/services.dart';
 
